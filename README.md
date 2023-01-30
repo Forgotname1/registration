@@ -20,7 +20,7 @@ url : https://blog.kata.academy/api/users
 }
 
 POST login:
-
+url: url : https://blog.kata.academy/api/users/login
 запрос : 
 {
     "user": {
@@ -38,7 +38,8 @@ POST login:
 }
 
 autorization:
-
+url: https://blog.kata.academy/api/user
+запрос пустой, только токен
 ответ:
 {
     "user": {
